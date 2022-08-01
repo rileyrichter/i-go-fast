@@ -1,7 +1,3 @@
-// Language: javascript
-// Path: scripts.js
-
-// skip to main content
 window.addEventListener("load", (event) => {
   document.querySelector("#skip-to-main").onclick = function (e) {
     if (e.type === "keydown" && e.which !== 13) {
